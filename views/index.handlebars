@@ -5,10 +5,10 @@
     <br>
     <div class="row">
         <div class="offset-md-3 col-md-6 offset-md-3 text-center" style="border-style: inset;">
-            <form>
+            <form action="/api/burgers" method="POST">
                 <div class="form-group">
                     <label id="input-label" for="add-burger-box">Order a burger</label>
-                    <input type="text" class="form-control" id="add-burger-box" placeholder="Enter a burger name">
+                    <input type="text" class="form-control" name="name" id="add-burger-box" placeholder="Enter a burger name">
                 </div>
                 <button type="submit" id="submit-burger" class="btn btn-primary">Order</button>
             </form>
